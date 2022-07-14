@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    outline: none;
+}
+
+.contener{
+    margin: 72px auto;
+    width: 633px;
+
+}
+
+h1{
+    font-size: 46px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.block1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1 p{
+    margin-right: 20px;
+    margin-bottom: 44px;
+}
+
+.block2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 31px 55px;
+}
+
+/* .block2_grid{
+    
+} */
+
+.block2_grid span{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.block2_grid input{
+    border-radius: 4px;
+    width: 277px;
+    height: 59px;
+    padding: 20px 12px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button{
+    margin: 27px auto;
+    display: block;
+    width: 277px;
+    height: 59px;
+    border-radius: 4px;
+    background-color: #4200FF;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+label{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.on{
+    border: 3px solid green;
+}
+
+.off{
+    border: 3px solid red;
+}
+
+.red{
+    color: red;
+}
+
+.bred{
+    background-color: red;
+    border: 2px solid blue;
+}
